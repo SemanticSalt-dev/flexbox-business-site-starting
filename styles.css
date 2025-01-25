@@ -1,0 +1,124 @@
+* {
+    /* border: solid; */
+}
+
+body {
+    background-color: rgb(254, 217, 55);
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h2, h3, h4, h5 {
+    margin: 0;
+}
+
+a {
+    font-size: 26px;
+    color: black;
+}
+
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.banner {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/shop_bender.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    height: 320px;
+}
+
+.banner .content {
+    background-color: rgb(254, 217, 55);
+    margin: auto;
+    margin-top: 110px;
+}
+
+.portfolio {
+    margin-top: 20px;
+}
+
+.portfolio h2, .portfolio h4 {
+    margin-top: 20px;
+}
+
+#application-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.application {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.application img {
+    width: 200px;
+    height: 120px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.application span {
+    text-align: center;
+    font-weight: bold;
+    min-width: 240px;
+}
+
+.our-team {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-image: url("images/shop.webp");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+    height: 500px;
+}
