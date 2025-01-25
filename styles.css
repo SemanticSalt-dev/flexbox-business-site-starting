@@ -122,3 +122,19 @@ a {
     background-position: top center;
     height: 500px;
 }
+
+.team {
+    padding-top: 100px;
+    display: flex;
+}
+.teammate img {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+.teammate h3, .teammate p {
+    background-color: rgb(254, 217, 55);
+}
+
